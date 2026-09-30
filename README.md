@@ -1,2 +1,8 @@
 # PhotoTimeFix
-解决iOS/iPadOS/MacOS 导入PS/Adobe Camera Raw (ACR)导出的图片时间错误的问题
+解决iOS/iPadOS/MacOS 导入PS/Adobe Camera Raw (ACR)导出的图片无法按拍摄时间排序的问题
+# 项目简介
+这是一个用于 Windows 的照片时间同步工具。它读取 Windows 文件属性中的“拍摄日期”，扫描 JPG、JPEG 和 AVIF 照片，并在预览确认后，将拍摄日期同步为文件的创建时间和修改时间。支持批量处理及子文件夹扫描，适合整理照片后，让文件时间与拍摄时间保持一致。
+# 使用方法
+双击exe文件，选择单个文件或文件夹，确定文件后开始运行。
+将修改好后的文件导入U盘或移动硬盘中，建议路径为 DCIM/100MSDCF/（Sony相机路径示例）
+将U盘或移动硬盘插入iPhone/iPad，打开图库底部的导入，选择导入的照片，即可实现正确的“拍摄日期”
